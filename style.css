@@ -1,0 +1,20 @@
+@keyframes rotate {
+  20% {
+    text-shadow: -0.5vw -0.5vw 4px white;
+  }
+  40% {
+    text-shadow: 0.5vw 0.5vw 4px white;
+  }
+  60% {
+    text-shadow: 0 0.5vw 4px white;
+  }
+  80% {
+    text-shadow: 0.5vw -0.5vw 4px white;
+  }
+}
+
+body>h1 {
+  letter-spacing: 5vw;
+  text-transform: uppercase;
+  text-align: center;
+}
